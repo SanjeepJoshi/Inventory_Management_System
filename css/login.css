@@ -1,0 +1,165 @@
+body {
+    /* background-image: url('image/bg.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.loginheader{
+    text-align: center;
+    margin-bottom: 60px;
+}
+div.loginheader h1{
+    color: rgb(58, 67, 58);
+    font-size: 70px;
+    border-bottom: 5px solid gray;
+    margin: 0px;
+    display: inline-block;
+}
+div.loginheader h1:after{
+    content: '';
+    display: block;
+    height: 5px;
+    background: black;
+    width:"";
+
+}
+div.loginbody form{
+    margin: 0 auto;
+    width: 500px;
+    background: rgb(0, 0, 0,.2);
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+div.logininputcontainer label{
+display: block;
+text-transform: uppercase;
+font-size: 20px;
+font-weight: bold;
+color: azure;
+}
+div.logininputcontainer input{
+    height: 40px;
+    width: 100%;
+    border: 2px solid gray;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+}
+div.loginbuttoncontainer{
+    margin: 40px;
+    text-align: center;
+}
+div.loginbuttoncontainer button{
+  font-size: 30px;
+  padding: 10px 20px;
+  background: rgba(33, 179, 162, 0.4);
+  border: none;
+  color: beige;
+}
+div.header{
+    width: 100%;
+    height: 20px;
+    background: olive;
+
+}
+div.banner{
+    
+    background-size: cover;
+
+}
+div.homepagecomtaimer{
+width: 100%;
+
+}
+
+/* dashboard */
+#maincontainer{
+    display: flex;
+    flex-direction: row;
+}
+div.sidebar{
+    width: 20%;
+    background: rgb(67, 68, 71);
+    height: 100vh;
+}
+div.contain_container{
+    
+    background: whitesmoke;
+}
+h3.logo{
+    color: aquamarine;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+div.sidebar_user{
+    text-align: center;
+    border-bottom: 2px solid black;
+    position: relative;
+    padding-bottom: 20px;
+}
+div.sidebar_user img{
+    width: 120px;
+    display: inline-block;
+    border-radius: 50%;
+    border: none;
+    margin-right: 5px;
+    margin-top: -8%;
+    vertical-align: middle;
+}
+div.sidebar_user span{
+    top: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+
+}
+ul.menu_list{
+    margin-top: 20px;
+}
+
+ul.menu_list li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-transform: uppercase;
+}
+ul.menu_list li a{
+    text-decoration:none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+ul.menu_list li:hover{
+    background: rgb(180, 227, 109);
+    color:white ;
+    transition: 0.3s all;
+    width: max-content;
+}
+div.content_topnav{
+    background: rgb(69, 71, 69);
+    padding: 20px;
+    width: 123%;
+}
+div.content_topnav a{
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+    text-decoration: none;
+}
+a#logoutbtn{
+    float: right;
+}
+
+
